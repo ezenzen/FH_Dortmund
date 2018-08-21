@@ -11421,9 +11421,6 @@ th.calmini {
   font-weight: normal;
   background-color: #FFFFFF;
 }
-div.il_calmini_monthday:has(+ a.calminiapp) {
-  background-color: black;
-}
 a.calminiapp {
   font-weight: bold;
 }
