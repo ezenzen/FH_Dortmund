@@ -11232,6 +11232,12 @@ table.calmini td.calminitoday {
 table.calmini td.calminitoday > .il_calmini_monthday > a {
   color: white;
 }
+table.calmini td.calministd > .il_calmini_monthday > a {
+  color: #696969;
+}
+table.calmini td.calminiapp > .il_calmini_monthday > a {
+  color: white;
+}
 table.calmini td.calminiprev > .il_calmini_monthday > a,
 table.calmini td.calmininext > .il_calmini_monthday > a {
   color: #a9a9a9;
@@ -11411,6 +11417,9 @@ p.il_cal_navigation {
 table.calmini {
   width: 100%;
 }
+table.calmini td.calminiapp {
+  background-color: #ffaa71;
+}
 .calminiheader {
   color: #222222;
   background-color: #F9F9F9;
@@ -11426,6 +11435,7 @@ a.calminiapp {
 }
 p.il_calmini_monthday,
 div.il_calmini_monthday {
+  color: #708bae;
   margin: 1px;
   text-align: center;
 }
