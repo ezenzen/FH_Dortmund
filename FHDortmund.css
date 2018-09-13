@@ -15748,6 +15748,10 @@ body {
 .breadcrumb > li + li:before {
   color: #ff6600;
 }
+.ilFormHeader,
+.ilFormFooter {
+  background-color: #f0f1ea;
+}
 /*TAB NAVIGATION*/
 a#il_mhead_t_focus {
   color: #5d5d5d;
@@ -15808,6 +15812,12 @@ div.ilBlockInfo {
 }
 table.calmini td.calministd > .il_calmini_monthday > a {
   color: #5d5d5d;
+}
+table.calmini td.calminiapp {
+  background-color: #ffb380;
+}
+table.calmini td.calminiapp > .il_calmini_monthday > a {
+  color: white;
 }
 /*------------------------------FOOTER------------------------------*/
 footer.ilFooter {
