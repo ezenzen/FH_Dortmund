@@ -15752,6 +15752,12 @@ body {
 .ilFormFooter {
   background-color: #f0f1ea;
 }
+div.ilHeaderAlert {
+  color: #ff6600;
+}
+.ilObjListRow:hover {
+  background-color: #fff0e5;
+}
 /*TAB NAVIGATION*/
 a#il_mhead_t_focus {
   color: #5d5d5d;
