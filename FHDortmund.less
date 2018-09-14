@@ -8,15 +8,24 @@
   height: auto;
   width: 150px;
 }
-div#il_startup_logo img {
-  height: auto;
-  width: 150px;
-}
 .ilMainHeader > header > .row > a.navbar-brand > img {
 @media only screen and (max-width: 767px) {
   height: 40px;
   width: 40px;
   margin: 5px;
+ }
+}
+div#il_startup_logo img {
+  height: auto;
+  width: 150px;
+}
+
+div#il_startup_logo img {
+@media only screen and (max-width: 767px) {
+  height: 40px;
+  width: 40px;
+  margin-top: -63px;
+  margin-left: 5px;
  }
 }
 
@@ -28,6 +37,11 @@ div#il_startup_logo img {
    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
 }
+.ilMainHeader {
+@media only screen and (max-width: 767px) {
+  height: 0px;
+ }
+}
 #ilTopNav.navbar > .navbar-collapse {
   margin: 31px 0 0 120px;
   padding: 0 0 0 5px;
@@ -37,6 +51,11 @@ div#il_startup_logo img {
 }
 #ilTopNav .navbar-nav > li > a {
   text-transform: inherit;
+}
+#ilTopNav .navbar-nav > li > a {
+@media only screen and (max-width: 767px) {
+  color: lighten(@mid-gray, 10%);
+ }
 }
 #ilTopNav .navbar-nav > .active > a,
 #ilTopNav .navbar-nav > .open > a,
@@ -57,6 +76,19 @@ div#il_startup_logo img {
   margin: 5px;
  }
 }
+#ilTopNav button.navbar-toggle .icon-bar {
+@media only screen and (max-width: 767px) {
+  background-color: white;
+ }
+}
+#ilTopNav .navbar-nav > li > a:hover,
+#ilTopNav .navbar-nav > li > a:active,
+#ilTopNav .navbar-nav > li > a:focus {
+@media only screen and (max-width: 767px) {
+  background-color: @accent-secondary;
+  color: white;
+ }
+}
 #ilTopBar.ilTopBar {
 @media only screen and (max-width: 767px) {
   padding: 5px;
@@ -64,6 +96,19 @@ div#il_startup_logo img {
    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+ }
+}
+#ilTopNav .navbar-nav > .active > a,
+#ilTopNav .navbar-nav > .open > a,
+#ilTopNav .navbar-nav > .active > a:hover,
+#ilTopNav .navbar-nav > .open > a:hover,
+#ilTopNav .navbar-nav > .active > a:active,
+#ilTopNav .navbar-nav > .open > a:active,
+#ilTopNav .navbar-nav > .active > a:focus,
+#ilTopNav .navbar-nav > .open > a:focus {
+@media only screen and (max-width: 767px) {
+  color: white;
+  background-color: @accent-primary;
  }
 }
 .navbar-default .navbar-collapse,

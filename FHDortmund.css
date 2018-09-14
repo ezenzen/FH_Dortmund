@@ -3640,7 +3640,7 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #808080;
+  color: #5d5d5d;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
@@ -8742,7 +8742,7 @@ span.ilAlert {
   font-size: 14px;
   line-height: 1.42857143;
   background-color: transparent;
-  color: #808080;
+  color: #5d5d5d;
   white-space: nowrap;
 }
 .dropdown-menu li > a:hover,
@@ -11797,11 +11797,11 @@ input.ilOpenIDBox {
   background-color: white;
   border-radius: 0;
   margin: 0;
-  color: #434343;
+  color: #5d5d5d;
 }
 #ilTopBarNav .dropdown-menu a {
   background-color: transparent;
-  color: #434343;
+  color: #5d5d5d;
 }
 #ilTopBarNav .dropdown-menu a:hover,
 #ilTopBarNav .dropdown-menu a:active,
@@ -12611,7 +12611,7 @@ img.ilPollQuestionImage {
 #ilTopBarNav .dropdown-menu #ilMMSearchMenu a:active,
 #ilTopBarNav .dropdown-menu #ilMMSearchMenu a:focus {
   background-color: transparent;
-  color: #434343;
+  color: #5d5d5d;
 }
 div.ilMainMenuSearch {
   padding: 0 10px 3px;
@@ -15557,15 +15557,23 @@ table.mceToolbar td {
   height: auto;
   width: 150px;
 }
-div#il_startup_logo img {
-  height: auto;
-  width: 150px;
-}
 @media only screen and (max-width: 767px) {
   .ilMainHeader > header > .row > a.navbar-brand > img {
     height: 40px;
     width: 40px;
     margin: 5px;
+  }
+}
+div#il_startup_logo img {
+  height: auto;
+  width: 150px;
+}
+@media only screen and (max-width: 767px) {
+  div#il_startup_logo img {
+    height: 40px;
+    width: 40px;
+    margin-top: -63px;
+    margin-left: 5px;
   }
 }
 /*MAINMENU*/
@@ -15576,6 +15584,11 @@ div#il_startup_logo img {
   -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
 }
+@media only screen and (max-width: 767px) {
+  .ilMainHeader {
+    height: 0px;
+  }
+}
 #ilTopNav.navbar > .navbar-collapse {
   margin: 31px 0 0 120px;
   padding: 0 0 0 5px;
@@ -15585,6 +15598,11 @@ div#il_startup_logo img {
 }
 #ilTopNav .navbar-nav > li > a {
   text-transform: inherit;
+}
+@media only screen and (max-width: 767px) {
+  #ilTopNav .navbar-nav > li > a {
+    color: #5d5d5d;
+  }
 }
 #ilTopNav .navbar-nav > .active > a,
 #ilTopNav .navbar-nav > .open > a,
@@ -15606,12 +15624,38 @@ div#il_startup_logo img {
   }
 }
 @media only screen and (max-width: 767px) {
+  #ilTopNav button.navbar-toggle .icon-bar {
+    background-color: white;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #ilTopNav .navbar-nav > li > a:hover,
+  #ilTopNav .navbar-nav > li > a:active,
+  #ilTopNav .navbar-nav > li > a:focus {
+    background-color: #A0A0A0;
+    color: white;
+  }
+}
+@media only screen and (max-width: 767px) {
   #ilTopBar.ilTopBar {
     padding: 5px;
     height: 50px;
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
     -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+  }
+}
+@media only screen and (max-width: 767px) {
+  #ilTopNav .navbar-nav > .active > a,
+  #ilTopNav .navbar-nav > .open > a,
+  #ilTopNav .navbar-nav > .active > a:hover,
+  #ilTopNav .navbar-nav > .open > a:hover,
+  #ilTopNav .navbar-nav > .active > a:active,
+  #ilTopNav .navbar-nav > .open > a:active,
+  #ilTopNav .navbar-nav > .active > a:focus,
+  #ilTopNav .navbar-nav > .open > a:focus {
+    color: white;
+    background-color: #ff6600;
   }
 }
 .navbar-default .navbar-collapse,
