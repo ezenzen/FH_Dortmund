@@ -3,60 +3,10 @@
 @import "FHDortmund-variables.less";
 
 /*------------------------------HEADER------------------------------*/
-/*TOPBAR*/
-div.ilTopBar {
-  background-color: @neutral-primary;
-  color: transparent;
-}
-#ilTopBarNav > li > a {
-  background-color: lighten(@accent-secondary, 30%);
-  color: @accent-primary;
-}
-#ilTopBarNav .dropdown-menu {
-  background-color: @neutral-primary;
-  color: lighten(@mid-gray, 10%);
-}
-#ilTopBarNav .dropdown-menu a {
-  background-color: @neutral-primary;
-  color: lighten(@mid-gray, 10%);
-}
-#ilTopBarNav > .active > a,
-#ilTopBarNav > .open > a,
-#ilTopBarNav > .active > a:hover,
-#ilTopBarNav > .open > a:hover,
-#ilTopBarNav > .active > a:active,
-#ilTopBarNav > .open > a:active,
-#ilTopBarNav > .active > a:focus,
-#ilTopBarNav > .open > a:focus {
-  background-color: @accent-primary;
-}
-#ilTopBarNav .dropdown-menu a:hover,
-#ilTopBarNav .dropdown-menu a:active,
-#ilTopBarNav .dropdown-menu a:focus {
-  background-color: @accent-secondary;
-  color: white;
-}
-#ilTopBarNav > li > a:hover,
-#ilTopBarNav > li > a:active,
-#ilTopBarNav > li > a:focus {
-  color: white;
-  background-color: @accent-primary;
-}
-#ilTopBarNav .dropdown-menu #ilMMSearchMenu a,
-#ilTopBarNav .dropdown-menu #ilMMSearchMenu a:hover,
-#ilTopBarNav .dropdown-menu #ilMMSearchMenu a:active,
-#ilTopBarNav .dropdown-menu #ilMMSearchMenu a:focus {
-  color: lighten(@mid-gray, 10%);
-}
-
-
 /*LOGO*/
 .ilMainHeader > header > .row > a.navbar-brand > img {
   height: auto;
   width: 150px;
-}
-.ilMainHeader > header > .row > a.navbar-brand {
-  margin: 35px 15px 0;
 }
 div#il_startup_logo img {
   height: auto;
@@ -72,7 +22,6 @@ div#il_startup_logo img {
 
 /*MAINMENU*/
 .ilMainHeader {
-  background-color: @neutral-primary;
   height: 100px;
   border: none;
    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
@@ -89,12 +38,6 @@ div#il_startup_logo img {
 #ilTopNav .navbar-nav > li > a {
   text-transform: inherit;
 }
-#ilTopNav .navbar-nav > li > a:hover,
-#ilTopNav .navbar-nav > li > a:active,
-#ilTopNav .navbar-nav > li > a:focus {
-  background-color: @accent-primary;
-  color: white;
-}
 #ilTopNav .navbar-nav > .active > a,
 #ilTopNav .navbar-nav > .open > a,
 #ilTopNav .navbar-nav > .active > a:hover,
@@ -104,11 +47,6 @@ div#il_startup_logo img {
 #ilTopNav .navbar-nav > .active > a:focus,
 #ilTopNav .navbar-nav > .open > a:focus {
   border-top: 4px solid white;
-  background-color: @accent-primary;
-  color: white;
-}
-#ilTopNav .dropdown-menu {
-  background-color: @neutral-primary;
 }
 #ilTopNav button.navbar-toggle {
 @media only screen and (max-width: 767px) {
@@ -161,22 +99,8 @@ div#il_startup_logo img {
   margin-top: -80px;
  }
 }
-.dropdown-menu li > a {
-  background-color: @neutral-primary;
-}
 .dropdown-menu .divider {
   background-color: @accent-primary;
-}
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-  color: white;
-  background-color: @accent-secondary;
-}
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
-  color: white;
-  background-color: @accent-secondary;
 }
 .dropdown-header {
   color: lighten(@mid-gray, 10%);
@@ -186,15 +110,10 @@ div#il_startup_logo img {
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus {
   text-decoration: none;
-  color: white;
-  background-color: @accent-secondary;
 }
 
 
 /*------------------------------BODY------------------------------*/
-body {
-  background-color: @neutral-secondary;
-}
 .ilFixedTopSpacer {
   padding-top: 147px;
 }
@@ -348,8 +267,6 @@ table.calmini td.calminiapp > .il_calmini_monthday > a {
 /*------------------------------FOOTER------------------------------*/
 footer.ilFooter {
   height: 100px;
-  background-color: @accent-secondary;
-  color: white;
 }
 footer.ilFooter div.il_ealearning img {
   width: 150px;

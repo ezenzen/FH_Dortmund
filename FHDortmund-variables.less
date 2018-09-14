@@ -96,7 +96,7 @@
 //== Scaffolding
 //
 //##
-@body-bg:		#f0f0f0;
+@body-bg:		@neutral-secondary;
 @text-color:		@gray-dark;
 @il-light-text-color:		lighten(@mid-gray, 30%);
 @link-color:		lighten(@brand-primary, 5%);
@@ -199,29 +199,29 @@
 //
 //## Variables to control the header (Top Navigation and Main menu) section of ILIAS.
 //** controls background color of the "topbar" (that gray thingy on top of the page in the standard).
-@il-top-bar-bg:		@mid-gray;
+@il-top-bar-bg:		@neutral-primary;
 //** controls text color of the "topbar" (the title of the ILIAS Installation)
-@il-top-bar-color:		white;
+@il-top-bar-color:		transparent;
 //** controls height of the "topbar"
 @il-top-bar-height:		40px;
 //** controls colors and bg colors of the "topbar" buttons
-@il-top-bar-link-bg:		lighten(@mid-gray, 20%);
-@il-top-bar-link-color:		lighten(@mid-gray, 70%);
-@il-top-bar-link-hover-bg:		lighten(@mid-gray, 42%);
+@il-top-bar-link-bg:		lighten(@accent-secondary, 30%);
+@il-top-bar-link-color:		@accent-primary;
+@il-top-bar-link-hover-bg:		@accent-primary;
 @il-top-bar-link-hover-color:		white;
 //** controls colors and bg colors of the "topbar" dropdowns
-@il-top-bar-dropdown-bg:		lighten(@mid-gray, 42%);
-@il-top-bar-dropdown-color:		lighten(@mid-gray, 70%);
+@il-top-bar-dropdown-bg:		white;
+@il-top-bar-dropdown-color:		@mid-gray;
 @il-top-bar-dropdown-link-bg:		transparent;
-@il-top-bar-dropdown-link-color:		lighten(@mid-gray, 70%);
-@il-top-bar-dropdown-link-hover-bg:		lighten(@brand-primary, 53%);
-@il-top-bar-dropdown-link-hover-color:		lighten(@mid-gray, 42%);
+@il-top-bar-dropdown-link-color:		@mid-gray;
+@il-top-bar-dropdown-link-hover-bg:		@accent-secondary;
+@il-top-bar-dropdown-link-hover-color:		white;
 //** controls the height of the "logo" (that [ILIAS] thingy on top the page in the standard).
 @il-logo-height:		50px;
 //** controls the width of the "logo" (that [ILIAS] thingy on top the page in the standard).
-@il-logo-width:		50px;
+@il-logo-width:		150px;
 //** controls margin around the logo
-@il-logo-margin:		15px 15px 0;
+@il-logo-margin:		35px 15px 0;
 @il-logo-resp-margin:		10px;
 //** controls the height of the "logo" for small screens.
 @il-logo-resp-height:		40px;
@@ -236,33 +236,33 @@
 //** that is the height of the complete header, that is that thingy upon the real content of the page.
 @il-header-height:		ceil((@il-main-header-height + @il-top-bar-height - @il-header-border-bottom-height));
 //** controls the bg color of the main header.
-@il-main-header-bg:		white;
+@il-main-header-bg:		@neutral-primary;
 //** controls the position of the top of the main menu.
 @il-main-menu-top:		-38px;
 //** controls the position of the left side of the main menu.
-@il-main-menu-left:		15px + @il-logo-width;
+@il-main-menu-left:		75px;
 @il-main-menu-margin:		@il-main-menu-top 0 0 @il-main-menu-left;
 //** controls colors of the main menu.
 @il-main-menu-bg:		@il-main-header-bg;
 @il-main-menu-link-color:		#808080;
-@il-main-menu-link-hover-color:		#808080;
-@il-main-menu-link-active-color:		#808080;
+@il-main-menu-link-hover-color:		white;
+@il-main-menu-link-active-color:		white;
 @il-main-menu-link-bg:		transparent;
-@il-main-menu-link-hover-bg:		transparent;
-@il-main-menu-link-active-bg:		#fafafa;
-@il-main-menu-dropdown-bg:		#fafafa;
-@il-main-menu-dropdown-link-color:		lighten(@mid-gray, 10%);
-@il-main-menu-dropdown-link-hover-color:		darken(@gray-dark, 5%);
+@il-main-menu-link-hover-bg:		@accent-primary;
+@il-main-menu-link-active-bg:		@accent-primary;
+@il-main-menu-dropdown-bg:		@neutral-primary;
+@il-main-menu-dropdown-link-color:		@mid-gray;
+@il-main-menu-dropdown-link-hover-color:		white;
 @il-main-menu-dropdown-link-bg:		transparent;
-@il-main-menu-dropdown-link-hover-bg:		lighten(@brand-primary, 53%);
-@il-main-menu-dropdown-header-bg:		#f3f3f3;
+@il-main-menu-dropdown-link-hover-bg:		@accent-secondary;
+@il-main-menu-dropdown-header-bg:		transparent;
 
 //== Footer
 //
 //## Variables to control the footer section of ILIAS.
 
 //** controls background color of the footer.
-@il-footer-bg-color:		@brand-primary;
+@il-footer-bg-color:		@accent-secondary;
 //** controls the color of the text in the footer.
 @il-footer-color:		white;
 
@@ -422,11 +422,11 @@
 //
 //##
 @dropdown-bg:		white;
-@dropdown-link-color:		lighten(@mid-gray, 10%);
-@dropdown-link-hover-color:		darken(@gray-dark, 5%);
+@dropdown-link-color:		#808080;
+@dropdown-link-hover-color:		white;
 @dropdown-link-bg:		transparent;
-@dropdown-link-hover-bg:		lighten(@brand-primary, 53%);
-@dropdown-header-bg:		#f3f3f3;
+@dropdown-link-hover-bg:		@accent-secondary;
+@dropdown-header-bg:		transparent;
 
 //** determines display of icons in dropdowns, 'none' for no display and 'inline' for display
 @il-nav-icons:		inline;
@@ -488,7 +488,7 @@
 //== Glyph
 //
 //##
-@il-glyph-color:		@link-color;
+@il-glyph-color:		@accent-primary;
 @il-glyph-hover-color:		@link-hover-color;
 @il-glyph-highlighted-color:		@brand-warning;
 @il-glyph-highlighted-hover-color:		darken(@brand-warning, 15%);
@@ -584,7 +584,7 @@
 //== Divider
 //
 //##
-@il-divider-bg:		darken(@il-secondary-container-bg, 5%);
+@il-divider-bg:		@accent-primary;
 
 @il-divider-color:		lighten(@text-color, 10%);
 

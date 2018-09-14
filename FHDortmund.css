@@ -1086,7 +1086,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  background-color: #f0f0f0;
+  background-color: #f0f1ea;
 }
 input,
 button,
@@ -1130,7 +1130,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #f0f0f0;
+  background-color: #f0f1ea;
   border: 1px solid #ddd;
   border-radius: 0px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2381,7 +2381,7 @@ th {
   border-top: 2px solid #ddd;
 }
 .table .table {
-  background-color: #f0f0f0;
+  background-color: #f0f1ea;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
@@ -3640,14 +3640,14 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #5d5d5d;
+  color: #808080;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
-  background-color: #ecf0f4;
+  color: white;
+  background-color: #A0A0A0;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -4120,7 +4120,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: #f0f0f0;
+  background-color: #f0f1ea;
   border: 1px solid #e0e0e0;
   border-bottom-color: transparent;
   cursor: default;
@@ -4166,7 +4166,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #f0f0f0;
+    border-bottom-color: #f0f1ea;
   }
 }
 .nav-pills > li {
@@ -4234,7 +4234,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
-    border-bottom-color: #f0f0f0;
+    border-bottom-color: #f0f1ea;
   }
 }
 .tab-content > .tab-pane {
@@ -5085,7 +5085,7 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #f0f0f0;
+  background-color: #f0f1ea;
   border: 1px solid #ddd;
   border-radius: 0px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -6840,7 +6840,7 @@ button.close {
   background-color: #a9a9a9;
 }
 .glyph {
-  color: #557196;
+  color: #ff6600;
 }
 .glyph.highlighted {
   color: #fa8228;
@@ -7288,7 +7288,7 @@ a.btn-link.ilSubmitInactive:hover {
 }
 h6.il-divider {
   padding: 3px 6px;
-  background-color: #ececec;
+  background-color: #ff6600;
   display: block;
   font-size: 12px;
   line-height: 1.5;
@@ -8725,7 +8725,7 @@ span.ilAlert {
 /* Drop Downs */
 .dropdown-header {
   padding: 3px 10px;
-  background-color: #f3f3f3;
+  background-color: transparent;
 }
 .dropdown-menu {
   background-color: white;
@@ -8742,14 +8742,14 @@ span.ilAlert {
   font-size: 14px;
   line-height: 1.42857143;
   background-color: transparent;
-  color: #5d5d5d;
+  color: #808080;
   white-space: nowrap;
 }
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus {
   text-decoration: none;
-  color: #262626;
-  background-color: #ecf0f4;
+  color: white;
+  background-color: #A0A0A0;
 }
 .dropdown-menu img {
   border: 0;
@@ -9477,7 +9477,7 @@ footer.ilFooter {
   margin: 0 auto;
   padding: 20px 0 0;
   text-align: left;
-  background-color: #4c6586;
+  background-color: #A0A0A0;
   color: white;
 }
 footer.ilFooter div.ilFooterContainer {
@@ -9636,7 +9636,7 @@ div#bot_center_area {
   height: 300px;
   position: fixed;
   padding: 5px;
-  background-color: #f0f0f0;
+  background-color: #f0f1ea;
   border-top: 3px solid #e9e9e9;
   -webkit-overflow-scrolling: touch;
   /* Bug 11209 */
@@ -9790,12 +9790,12 @@ div.ilBox {
 }
 /* Top-Bar */
 div.ilTopBar {
-  background-color: #434343;
-  color: white;
+  background-color: white;
+  color: transparent;
   padding: 5px 10px;
 }
 div.ilTopBar a {
-  color: #f5f5f5;
+  color: #ff6600;
 }
 div.ilTopBar a:hover,
 div.ilTopBar a:active,
@@ -10110,7 +10110,7 @@ input[type="file"].form-control {
 .ilFormFooter {
   color: #4d4d4d;
   /* background-color: lighten(@ilFormColor, 45%); */
-  background-color: #f0f0f0;
+  background-color: #f0f1ea;
 }
 .ilSubForm {
   background-color: #f8f8f8;
@@ -10159,7 +10159,7 @@ div[id^="ilFormField"] {
 div.ilHFormHeader,
 div.ilHFormFooter {
   color: #4d4d4d;
-  background-color: #f0f0f0;
+  background-color: #f0f1ea;
   padding: 4px 0 4px 22px;
 }
 [dir="rtl"] div.ilHFormHeader,
@@ -11292,13 +11292,13 @@ table.calstd {
 th.calstd {
   text-align: center;
   border-spacing: 0px;
-  background-color: #f0f0f0;
+  background-color: #f0f1ea;
   font-weight: normal;
 }
 td.calheadertime {
   width: 6em;
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: #f0f1ea;
   font-size: 90%;
   padding: 3px;
 }
@@ -11545,7 +11545,7 @@ li.ilWikiBlockItem {
   padding: 0;
 }
 #ilTopNav {
-  margin: -38px 0 0 65px;
+  margin: -38px 0 0 75px;
 }
 @media only screen and (max-width: 767px) {
   #ilTopNav {
@@ -11591,7 +11591,7 @@ li.ilWikiBlockItem {
   right: auto;
   left: 0;
   min-width: 100%;
-  background-color: #fafafa;
+  background-color: white;
 }
 @media only screen and (max-width: 767px) {
   #ilTopNav .dropdown-menu {
@@ -11633,8 +11633,8 @@ li.ilWikiBlockItem {
 #ilTopNav .navbar-nav > li > a:hover,
 #ilTopNav .navbar-nav > li > a:active,
 #ilTopNav .navbar-nav > li > a:focus {
-  background-color: transparent;
-  color: #808080;
+  background-color: #ff6600;
+  color: white;
 }
 #ilTopNav .navbar-nav > .active > a,
 #ilTopNav .navbar-nav > .open > a,
@@ -11646,8 +11646,8 @@ li.ilWikiBlockItem {
 #ilTopNav .navbar-nav > .open > a:focus {
   outline: 0 none;
   border-top: 4px solid #4c6586;
-  background-color: #fafafa;
-  color: #808080;
+  background-color: #ff6600;
+  color: white;
   -webkit-box-shadow: 3px 9px 9px 0px rgba(0, 0, 0, 0.176);
   box-shadow: 3px 9px 9px 0px rgba(0, 0, 0, 0.176);
 }
@@ -11674,19 +11674,19 @@ li.ilWikiBlockItem {
     height: 40px;
     border-radius: 0;
     border-width: 0;
-    background-color: #767676;
-    color: #f5f5f5;
+    background-color: #ededed;
+    color: #ff6600;
     margin: 0;
   }
 }
 @media only screen and (max-width: 767px) {
   #ilTopNav button.navbar-toggle .icon-bar {
-    background-color: #f5f5f5;
+    background-color: #ff6600;
   }
 }
 @media only screen and (max-width: 767px) {
   #ilTopNav button.navbar-toggle:hover {
-    background-color: #aeaeae;
+    background-color: #ff6600;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -11794,20 +11794,20 @@ input.ilOpenIDBox {
   }
 }
 #ilTopBarNav .dropdown-menu {
-  background-color: #aeaeae;
+  background-color: white;
   border-radius: 0;
   margin: 0;
-  color: #f5f5f5;
+  color: #434343;
 }
 #ilTopBarNav .dropdown-menu a {
   background-color: transparent;
-  color: #f5f5f5;
+  color: #434343;
 }
 #ilTopBarNav .dropdown-menu a:hover,
 #ilTopBarNav .dropdown-menu a:active,
 #ilTopBarNav .dropdown-menu a:focus {
-  background-color: #ecf0f4;
-  color: #aeaeae;
+  background-color: #A0A0A0;
+  color: white;
 }
 #ilTopBarNav > li {
   float: left;
@@ -11822,8 +11822,8 @@ input.ilOpenIDBox {
   min-width: 40px;
   height: 40px;
   text-align: center;
-  background-color: #767676;
-  color: #f5f5f5;
+  background-color: #ededed;
+  color: #ff6600;
 }
 #ilTopBarNav > li > a:hover,
 #ilTopBarNav > li > a:active,
@@ -11831,7 +11831,7 @@ input.ilOpenIDBox {
   outline: 0 none;
   color: white;
   text-decoration: none;
-  background-color: #aeaeae;
+  background-color: #ff6600;
 }
 #ilTopBarNav > .active > a,
 #ilTopBarNav > .open > a,
@@ -11844,7 +11844,7 @@ input.ilOpenIDBox {
   outline: 0 none;
   color: white;
   text-decoration: none;
-  background-color: #aeaeae;
+  background-color: #ff6600;
 }
 #ilTopBarNav #userlog > a {
   padding: 0 10px 0 0;
@@ -11889,7 +11889,7 @@ input.ilOpenIDBox {
 .ilMainHeader {
   background-color: white;
   height: 80px;
-  border-bottom: 3px solid #f0f0f0;
+  border-bottom: 3px solid #f0f1ea;
 }
 @media only screen and (max-width: 767px) {
   .ilMainHeader {
@@ -11909,7 +11909,7 @@ input.ilOpenIDBox {
   height: auto;
   display: inline-block;
   padding: 0;
-  margin: 15px 15px 0;
+  margin: 35px 15px 0;
 }
 @media only screen and (max-width: 767px) {
   .ilMainHeader > header > .row > a.navbar-brand {
@@ -11921,7 +11921,7 @@ input.ilOpenIDBox {
 .ilMainHeader > header > .row > a.navbar-brand > img {
   display: inline-block;
   height: 50px;
-  width: 50px;
+  width: 150px;
 }
 @media only screen and (max-width: 767px) {
   .ilMainHeader > header > .row > a.navbar-brand > img {
@@ -12170,7 +12170,7 @@ fieldset.ilTableFilter {
 }
 div.ilTableFilterLabel {
   font-style: italic;
-  background-color: #f0f0f0;
+  background-color: #f0f1ea;
   padding: 3px 5px;
 }
 div.ilTableFilterLabel label {
@@ -12611,7 +12611,7 @@ img.ilPollQuestionImage {
 #ilTopBarNav .dropdown-menu #ilMMSearchMenu a:active,
 #ilTopBarNav .dropdown-menu #ilMMSearchMenu a:focus {
   background-color: transparent;
-  color: #f5f5f5;
+  color: #434343;
 }
 div.ilMainMenuSearch {
   padding: 0 10px 3px;
@@ -13549,7 +13549,7 @@ div.ilCreationFormSection .form-horizontal {
   padding-top: 1px;
 }
 .ilObjListRow {
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f1ea;
   background-color: white;
 }
 .ilObjListRow:hover {
@@ -13770,8 +13770,8 @@ div.ilStartupSection form.form-horizontal {
 }
 div#il_startup_logo img {
   height: 50px;
-  width: 50px;
-  margin: 15px 15px 0;
+  width: 150px;
+  margin: 35px 15px 0;
 }
 @media only screen and (max-width: 767px) {
   div#il_startup_logo img {
@@ -13923,7 +13923,7 @@ div.ilRatingOverlay {
   background: white;
 }
 .panel-heading.ilHeader {
-  background: #f0f0f0;
+  background: #f0f1ea;
   padding-left: 0;
   padding-bottom: 5px;
 }
@@ -15552,58 +15552,10 @@ table.mceToolbar td {
 /* @il-highlight-bg: lighten(#21c5d8, 40%); */
 /* @nav-tabs-link-hover-border-color: @brand-primary; */
 /*------------------------------HEADER------------------------------*/
-/*TOPBAR*/
-div.ilTopBar {
-  background-color: white;
-  color: transparent;
-}
-#ilTopBarNav > li > a {
-  background-color: #ededed;
-  color: #ff6600;
-}
-#ilTopBarNav .dropdown-menu {
-  background-color: white;
-  color: #5d5d5d;
-}
-#ilTopBarNav .dropdown-menu a {
-  background-color: white;
-  color: #5d5d5d;
-}
-#ilTopBarNav > .active > a,
-#ilTopBarNav > .open > a,
-#ilTopBarNav > .active > a:hover,
-#ilTopBarNav > .open > a:hover,
-#ilTopBarNav > .active > a:active,
-#ilTopBarNav > .open > a:active,
-#ilTopBarNav > .active > a:focus,
-#ilTopBarNav > .open > a:focus {
-  background-color: #ff6600;
-}
-#ilTopBarNav .dropdown-menu a:hover,
-#ilTopBarNav .dropdown-menu a:active,
-#ilTopBarNav .dropdown-menu a:focus {
-  background-color: #A0A0A0;
-  color: white;
-}
-#ilTopBarNav > li > a:hover,
-#ilTopBarNav > li > a:active,
-#ilTopBarNav > li > a:focus {
-  color: white;
-  background-color: #ff6600;
-}
-#ilTopBarNav .dropdown-menu #ilMMSearchMenu a,
-#ilTopBarNav .dropdown-menu #ilMMSearchMenu a:hover,
-#ilTopBarNav .dropdown-menu #ilMMSearchMenu a:active,
-#ilTopBarNav .dropdown-menu #ilMMSearchMenu a:focus {
-  color: #5d5d5d;
-}
 /*LOGO*/
 .ilMainHeader > header > .row > a.navbar-brand > img {
   height: auto;
   width: 150px;
-}
-.ilMainHeader > header > .row > a.navbar-brand {
-  margin: 35px 15px 0;
 }
 div#il_startup_logo img {
   height: auto;
@@ -15618,7 +15570,6 @@ div#il_startup_logo img {
 }
 /*MAINMENU*/
 .ilMainHeader {
-  background-color: white;
   height: 100px;
   border: none;
   -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
@@ -15635,12 +15586,6 @@ div#il_startup_logo img {
 #ilTopNav .navbar-nav > li > a {
   text-transform: inherit;
 }
-#ilTopNav .navbar-nav > li > a:hover,
-#ilTopNav .navbar-nav > li > a:active,
-#ilTopNav .navbar-nav > li > a:focus {
-  background-color: #ff6600;
-  color: white;
-}
 #ilTopNav .navbar-nav > .active > a,
 #ilTopNav .navbar-nav > .open > a,
 #ilTopNav .navbar-nav > .active > a:hover,
@@ -15650,11 +15595,6 @@ div#il_startup_logo img {
 #ilTopNav .navbar-nav > .active > a:focus,
 #ilTopNav .navbar-nav > .open > a:focus {
   border-top: 4px solid white;
-  background-color: #ff6600;
-  color: white;
-}
-#ilTopNav .dropdown-menu {
-  background-color: white;
 }
 @media only screen and (max-width: 767px) {
   #ilTopNav button.navbar-toggle {
@@ -15707,22 +15647,8 @@ div#il_startup_logo img {
     margin-top: -80px;
   }
 }
-.dropdown-menu li > a {
-  background-color: white;
-}
 .dropdown-menu .divider {
   background-color: #ff6600;
-}
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-  color: white;
-  background-color: #A0A0A0;
-}
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
-  color: white;
-  background-color: #A0A0A0;
 }
 .dropdown-header {
   color: #5d5d5d;
@@ -15732,13 +15658,8 @@ div#il_startup_logo img {
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus {
   text-decoration: none;
-  color: white;
-  background-color: #A0A0A0;
 }
 /*------------------------------BODY------------------------------*/
-body {
-  background-color: #f0f1ea;
-}
 .ilFixedTopSpacer {
   padding-top: 147px;
 }
@@ -15764,7 +15685,7 @@ a.thumbnail.active {
 .il_HAccordionHead {
   color: #ff6600;
 }
-/*HOVER AND HIGHLIGHTS*/
+/*HOVER AND HIGHLIGHT*/
 .il_HAccordionHeadActive,
 .il_VAccordionHeadActive {
   background-color: #fff9f5;
@@ -15887,8 +15808,6 @@ table.calmini td.calminiapp > .il_calmini_monthday > a {
 /*------------------------------FOOTER------------------------------*/
 footer.ilFooter {
   height: 100px;
-  background-color: #A0A0A0;
-  color: white;
 }
 footer.ilFooter div.il_ealearning img {
   width: 150px;
