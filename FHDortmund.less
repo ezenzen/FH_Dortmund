@@ -128,7 +128,8 @@ div#il_startup_logo img {
    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
  }
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
   border-color: @accent-primary;
 }
 #ilTopNav.navbar-default {
@@ -182,7 +183,8 @@ div#il_startup_logo img {
   background-color: transparent;
   border-bottom: 1px solid @accent-primary;
 }
-.dropdown-menu li > a:hover, .dropdown-menu li > a:focus {
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus {
   text-decoration: none;
   color: white;
   background-color: @accent-secondary;
@@ -208,8 +210,69 @@ body {
 div.ilHeaderAlert {
   color: @accent-primary;
 }
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: @accent-primary;
+}
+.il_VAccordionHead,
+.il_HAccordionHead {
+  color: @accent-primary;
+}
+
+/*HOVER AND HIGHLIGHT*/
+.il_HAccordionHeadActive,
+.il_VAccordionHeadActive {
+  background-color: lighten(@accent-primary, 48%);
+}
+.il_HAccordionHead:hover,
+.il_VAccordionHead:hover {
+  background-color: lighten(@accent-primary, 48%);
+}
 .ilObjListRow:hover {
   background-color: lighten(@accent-primary, 48%);
+}
+div.ilChecklist ul a:hover {
+  color: @accent-primary;
+}
+.table-striped > tbody > tr.ilObjListRow:hover > td {
+  background-color: lighten(@accent-primary, 48%);
+}
+.table-striped > tbody > tr.ilObjListRow:hover:nth-child(2n+1) > td {
+  background-color: lighten(@accent-primary, 48%);
+}
+.il-narrow-content .il-item:hover {
+  background-color: lighten(@accent-primary, 48%);
+}
+.ilCOPgEditStyleSelectionItem:hover {
+  background-color: lighten(@accent-primary, 48%);
+}
+a.ilGroupedListLE:hover {
+  background-color: lighten(@accent-primary, 48%);
+}
+tr.dcl_comments_active > td {
+  background-color: lighten(@accent-primary, 48%);
+}
+div.ilContainerListItemOuterHighlight {
+  background-color: lighten(@accent-primary, 48%);
+}
+.ilContainerBlockHeaderExpanded:hover,
+.ilContainerBlockHeaderCollapsed:hover {
+  background-color: lighten(@accent-primary, 48%);
+}
+.il-narrow-content .il-item:hover {
+  background-color: lighten(@accent-primary, 48%);
+}
+
+/*CHAT*/
+.ilOnScreenChatMenuItem .media-body.info a {
+  color: @accent-primary !important;
+}
+.ilOnScreenChatMenuItem .media-body .media-heading a {
+  color: @accent-primary !important;
+}
+.ilOnScreenChatMenuItem .media-body p a {
+  color: @accent-primary !important;
 }
 
 /*TAB NAVIGATION*/
@@ -252,13 +315,16 @@ li#nontab_members_view a:hover {
 }
 
 /*CALENDER BLOCK*/
-table.calmini tr, table.calmini td, table.calmini th {
+table.calmini tr,
+table.calmini td,
+table.calmini th {
   color: #557196;
 }
 table.calmini tr:nth-child(odd) {
   background-color: @neutral-primary;
 }
-div.il_Block, table.il_Block {
+div.il_Block,
+table.il_Block {
   background-color: @neutral-primary;
   border: 1px solid lighten(@accent-secondary, 30%);
 }
