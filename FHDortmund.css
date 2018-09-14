@@ -15598,6 +15598,7 @@ div#il_startup_logo img {
 }
 #ilTopNav .navbar-nav > li > a {
   text-transform: inherit;
+  border-top: 4px solid transparent;
 }
 @media only screen and (max-width: 767px) {
   #ilTopNav .navbar-nav > li > a {
@@ -15612,7 +15613,7 @@ div#il_startup_logo img {
 #ilTopNav .navbar-nav > .open > a:active,
 #ilTopNav .navbar-nav > .active > a:focus,
 #ilTopNav .navbar-nav > .open > a:focus {
-  border-top: 4px solid white;
+  border-top: 4px solid transparent;
 }
 @media only screen and (max-width: 767px) {
   #ilTopNav button.navbar-toggle {
