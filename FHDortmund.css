@@ -15707,6 +15707,20 @@ div#il_startup_logo img {
 .ilFixedTopSpacer {
   padding-top: 147px;
 }
+a.ilTreeView {
+  top: 160px;
+}
+a.ilTreeView > img {
+  width: 0px;
+  height: 0px;
+}
+a.ilTreeView {
+  background-color: white;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width: 0px;
+}
 .btn-link {
   color: #ff6600;
 }
@@ -15728,6 +15742,12 @@ a.thumbnail.active {
 .il_VAccordionHead,
 .il_HAccordionHead {
   color: #ff6600;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1400px;
+    padding: 0 30px;
+  }
 }
 /*HOVER AND HIGHLIGHT*/
 .il_HAccordionHeadActive,
