@@ -41,8 +41,19 @@ div#il_startup_logo img {
   height: 0px;
  }
 }
+.ilMainMenu.ilTopFixed {
+  margin-left: 195px;
+}
+.ilMainMenu.ilTopFixed {
+@media only screen and (max-width: 767px) {
+    margin-left: 0px;
+ }
+}
+#ilTopNav {
+  margin: -38px 0 0 0;
+}
 #ilTopNav.navbar > .navbar-collapse {
-  margin: 31px 0 0 120px;
+  margin: 31px 0 0 0;
   padding: 0 0 0 5px;
 }
 .ilMainMenu {
@@ -117,6 +128,7 @@ div#il_startup_logo img {
 #ilTopNav.navbar-default {
 @media only screen and (max-width: 767px) {
   background-color: @neutral-primary;
+  margin-top: 0px;
    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
@@ -178,9 +190,6 @@ a.ilTreeView {
 .btn-link {
   color: @accent-primary;
 }
-.breadcrumb > li + li:before {
-  color: @accent-primary;
-}
 .ilFormHeader, .ilFormFooter {
   background-color: @neutral-secondary;
 }
@@ -191,10 +200,6 @@ a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
   border-color: @accent-primary;
-}
-.il_VAccordionHead,
-.il_HAccordionHead {
-  color: @accent-primary;
 }
 .container {
 @media (min-width: 1200px) {
@@ -269,7 +274,6 @@ a#il_mhead_t_focus {
 #ilSubTab > li.active > a,
 #ilSubTab > li.active > a:hover,
 #ilSubTab > li.active > a:focus {
-  color: @accent-primary;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -330,7 +334,10 @@ table.calmini td.calminiapp > .il_calmini_monthday > a {
 
 /*------------------------------FOOTER------------------------------*/
 footer.ilFooter {
-  height: 100px;
+  height: 120px;
+}
+#current_perma_link {
+  width: 40%;
 }
 footer.ilFooter div.il_ealearning img {
   width: 150px;
