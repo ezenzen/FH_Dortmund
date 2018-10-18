@@ -41,12 +41,18 @@ div#il_startup_logo img {
   height: 0px;
  }
 }
-.ilMainMenu.ilTopFixed {
-  margin-left: 195px;
+.ilMainMenu {
+  background-color: transparent;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 195px;
 }
 .ilMainMenu.ilTopFixed {
 @media only screen and (max-width: 767px) {
     margin-left: 0px;
+    top: 50px;
+    left: 0px;
  }
 }
 #ilTopNav {
@@ -56,17 +62,9 @@ div#il_startup_logo img {
   margin: 31px 0 0 0;
   padding: 0 0 0 5px;
 }
-.ilMainMenu {
-  background-color: transparent;
-}
 #ilTopNav .navbar-nav > li > a {
   text-transform: inherit;
   border-top: 4px solid transparent;
-}
-#ilTopNav .navbar-nav > li > a {
-@media only screen and (max-width: 767px) {
-  color: lighten(@mid-gray, 10%);
- }
 }
 #ilTopNav .navbar-nav > .active > a,
 #ilTopNav .navbar-nav > .open > a,
@@ -77,6 +75,11 @@ div#il_startup_logo img {
 #ilTopNav .navbar-nav > .active > a:focus,
 #ilTopNav .navbar-nav > .open > a:focus {
   border-top: 4px solid transparent;
+}
+#ilTopNav .navbar-nav > li > a {
+@media only screen and (max-width: 767px) {
+  color: lighten(@mid-gray, 10%);
+ }
 }
 #ilTopNav button.navbar-toggle {
 @media only screen and (max-width: 767px) {
@@ -121,10 +124,6 @@ div#il_startup_logo img {
   background-color: @accent-primary;
  }
 }
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: @accent-primary;
-}
 #ilTopNav.navbar-default {
 @media only screen and (max-width: 767px) {
   background-color: @neutral-primary;
@@ -132,11 +131,6 @@ div#il_startup_logo img {
    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
- }
-}
-.ilMainMenu.ilTopFixed {
-@media only screen and (max-width: 767px) {
-   top: 50px;
  }
 }
 #ilTopNav button.navbar-toggle:hover {
@@ -149,6 +143,10 @@ div#il_startup_logo img {
   margin: 0 0 0 0;
   padding: 0 0 0 5px;
  }
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: @accent-primary;
 }
 .ilFixedTopSpacer {
 @media only screen and (max-width: 767px) {
