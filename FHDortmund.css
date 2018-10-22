@@ -15887,9 +15887,6 @@ footer.ilFooter .ilPermalinkContainer > label {
     width: 20px;
   }
 }
-bdo[dir="ltr"] {
-  margin-left: -1%;
-}
 footer.ilFooter div.il_ealearning img {
   width: 150px;
   height: auto;
